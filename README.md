@@ -13,7 +13,7 @@ Fonte: repo privado [`tiagofreitas83/aplicacao-tf`](https://github.com/tiagofrei
 
    ```bash
    export STATICRYPT_PASSWORD='<senha>'
-   npx staticrypt "Aplicação TF.html" --short -o index.html --title "Aplicação TF — Tiago Freitas"
+   npx staticrypt "Aplicação TF.html" --short --noremember -o index.html --title "Aplicação TF — Tiago Freitas"
    unset STATICRYPT_PASSWORD
    ```
 
